@@ -1,7 +1,11 @@
 import { Code, Dumbbell, Gamepad2, Layers, Music, Briefcase, PenTool, GraduationCap, Trophy } from 'lucide-react';
 
-export const API_URL = 'http://localhost:5000/api';
-export const SOCKET_URL = 'http://localhost:5000';
+// Previous URLs (for development):
+// API_URL: 'http://localhost:5000/api'
+// SOCKET_URL: 'http://localhost:5000'
+
+export const API_URL = 'https://squadsync-backend.onrender.com/api';
+export const SOCKET_URL = 'https://squadsync-backend.onrender.com';
 
 export const CATEGORIES = [
   { id: 'hackathon', label: 'Hackathon', icon: Code, color: 'text-violet-600 ring-violet-100', badge: 'bg-violet-50 text-violet-700 border-violet-100' },
